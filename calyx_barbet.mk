@@ -12,3 +12,5 @@ PRODUCT_MODEL := Pixel 5a
 PRODUCT_BRAND := google
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+$(call inherit-product, vendor/google/barbet/barbet-vendor.mk)
