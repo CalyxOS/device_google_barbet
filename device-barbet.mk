@@ -16,17 +16,10 @@
 
 PRODUCT_HARDWARE := barbet
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-    ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
-        LOCAL_KERNEL := device/google/barbet-kernel/Image.lz4
-    else
-        LOCAL_KERNEL := device/google/barbet-kernel/vintf/Image.lz4
-    endif
-else
-    LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
-
+ifneq ($(INLINE_KERNEL_BUILDING),true)
+TARGET_PREBUILT_KERNEL := device/google/barbet-kernel/Image.lz4
 PRODUCT_VENDOR_KERNEL_HEADERS := device/google/barbet-kernel/sm7250/kernel-headers
+endif
 
 DEVICE_PACKAGE_OVERLAYS += device/google/barbet/barbet/overlay
 
