@@ -9,3 +9,5 @@ $(call inherit-product, device/google/barbet/aosp_barbet.mk)
 PRODUCT_NAME := calyx_barbet
 PRODUCT_MODEL := Pixel 5a
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+PRODUCT_SOONG_NAMESPACES += vendor/google_devices/barbet
