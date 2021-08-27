@@ -21,6 +21,8 @@ USES_DEVICE_GOOGLE_BARBET := true
 
 include device/google/redbull/BoardConfig-common.mk
 
+BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(shell date -d 'TZ="GMT" 2021-06-05' +%s)
+
 # Allow LZ4 compression
 BOARD_RAMDISK_USE_LZ4 := true
 
