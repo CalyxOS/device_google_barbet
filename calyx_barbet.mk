@@ -11,6 +11,12 @@ PRODUCT_NAME := calyx_barbet
 PRODUCT_MODEL := Pixel 5a
 PRODUCT_BRAND := google
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_PRODUCT=barbet \
+    PRIVATE_BUILD_DESC="barbet-user 12 SP2A.220305.012 8177914 release-keys"
+
+BUILD_FINGERPRINT := google/barbet/barbet:12/SP2A.220305.012/8177914:user/release-keys
+
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 $(call inherit-product, vendor/google/barbet/barbet-vendor.mk)
