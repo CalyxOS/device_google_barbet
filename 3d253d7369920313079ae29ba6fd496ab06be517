@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "724b39b2_0d5c379d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-11T16:21:31Z",
+      "side": 1,
+      "message": "Synced up with redfin and bramble now.",
+      "revId": "3d253d7369920313079ae29ba6fd496ab06be517",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
