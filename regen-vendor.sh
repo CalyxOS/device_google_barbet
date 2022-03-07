@@ -1467,6 +1467,10 @@ VENDOR_SKIP_FILES=(
     "lib/vendor.qti.hardware.sigma_miracast@1.0.so"
     "lib64/libwfddisplayconfig_proprietary.so"
     "lib64/vendor.qti.hardware.sigma_miracast@1.0.so"
+
+    # 12L
+    "lib/libmediautils_vendor.so"
+    "lib/libmemunreachable.so"
 )
 
 generate_prop_list_from_image "${_input_image}" "${_output_file}" VENDOR_SKIP_FILES
