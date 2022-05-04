@@ -18,4 +18,8 @@
 PRODUCT_COPY_FILES += \
     device/google/barbet/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
 
+# HBM
+PRODUCT_PACKAGES += \
+    HbmSVManagerOverlay
+
 TARGET_PREBUILT_KERNEL := device/google/barbet-kernel/Image.lz4
