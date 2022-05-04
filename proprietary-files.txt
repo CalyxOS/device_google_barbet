@@ -164,6 +164,9 @@ product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 system_ext/lib64/libaptXHD_encoder.so
 system_ext/lib64/libaptX_encoder.so
 
+# HBM
+system_ext/priv-app/HbmSVManager/HbmSVManager.apk
+
 # Qualcomm misc
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/app/atfwd/atfwd.apk
