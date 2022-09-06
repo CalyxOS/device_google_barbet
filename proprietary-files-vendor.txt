@@ -191,6 +191,7 @@ vendor/dsp/cdsp/libvpt_preproc.so
 vendor/dsp/cdsp/libvpt_preproc_postproc.so
 vendor/dsp/cdsp/ubwcdma_dynlib.so
 vendor/etc/IPACM_cfg.xml
+vendor/etc/NOTICE.xml.gz
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
