@@ -17,7 +17,11 @@
 PRODUCT_HARDWARE := barbet
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-    LOCAL_KERNEL := device/google/redbull-kernel/Image.lz4
+    ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+        LOCAL_KERNEL := device/google/redbull-kernel/Image.lz4
+    else
+        LOCAL_KERNEL := device/google/redbull-kernel/vintf/Image.lz4
+    endif
 else
     LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
