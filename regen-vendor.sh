@@ -1,11 +1,14 @@
 #!/bin/bash
 #
-# Copyright (C) 2019-2021 The LineageOS Project
+# Copyright (C) 2019-2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 set -e
+
+DEVICE=barbet
+VENDOR=google
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -1452,7 +1455,7 @@ VENDOR_SKIP_FILES=(
 )
 
 # Initialize the helper
-setup_vendor_deps "${ANDROID_ROOT}"
+setup_vendor_deps "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
 generate_prop_list_from_image "${_input_image}" "${_output_file}" VENDOR_SKIP_FILES
 
