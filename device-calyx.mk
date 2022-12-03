@@ -21,5 +21,3 @@ PRODUCT_COPY_FILES += \
 # HBM
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlay
-
-TARGET_PREBUILT_KERNEL := device/google/redbull-kernel/vintf/Image.lz4
