@@ -24,6 +24,9 @@ on post-fs
     chmod 664 /sys/devices/platform/soc/a600000.ssusb/id
     chmod 664 /sys/devices/platform/soc/a600000.ssusb/b_sess
     chmod 664 /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled
+    # Needed to allow reactivating USB without running script as root.
+    chown root system /sys/devices/platform/soc/a600000.ssusb/mode
+    chmod 664 /sys/devices/platform/soc/a600000.ssusb/mode
 
 on early-init
     # Disable USB data initially, even with existing connected device.
@@ -32,3 +35,9 @@ on early-init
     write /config/usb_gadget/g1/UDC none
     # USB_DATA_PATH to 0 (required always)
     write /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled 0
+
+service enable_usb_data /vendor/bin/init.enable_usb_data.sh /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled 1 /sys/class/typec/port0-partner /sys/class/typec/port0/data_role [host] /sys/devices/platform/soc/a600000.ssusb/mode host peripheral
+    disabled
+    user nobody
+    group system
+    oneshot
