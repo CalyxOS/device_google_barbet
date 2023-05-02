@@ -22,6 +22,30 @@
       },
       "revId": "06195cd5b2538009a8bb89e44aacd7e6f11380fa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5ec52df_72039589",
+        "filename": "device-calyx.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-02T14:03:07Z",
+      "side": 1,
+      "message": "Done in Id31e73b624c412e9758db4556b146b999ab1dc74",
+      "parentUuid": "ac28ef3a_386186aa",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 70
+      },
+      "revId": "06195cd5b2538009a8bb89e44aacd7e6f11380fa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": []
