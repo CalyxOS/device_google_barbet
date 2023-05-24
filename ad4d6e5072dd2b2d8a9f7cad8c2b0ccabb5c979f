@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44bfa4cd_20aa5c4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-24T22:27:09Z",
+      "side": 1,
+      "message": "YOLO because it was tested on bramble.",
+      "revId": "ad4d6e5072dd2b2d8a9f7cad8c2b0ccabb5c979f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
