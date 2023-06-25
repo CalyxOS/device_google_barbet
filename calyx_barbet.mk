@@ -1,5 +1,5 @@
 # Inherit some common stuff.
-$(call inherit-product, vendor/calyx/config/common.mk)
+$(call inherit-product, vendor/calyx/config/common_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/barbet/device-calyx.mk)
