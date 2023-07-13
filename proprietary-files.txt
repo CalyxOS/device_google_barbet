@@ -2,6 +2,9 @@
 
 # product partition
 
+# Camera extensions
+product/app/PixelCameraServicesBarbet/PixelCameraServicesBarbet.apk;PRESIGNED
+
 # Qualcomm misc
 product/app/uimremoteclient/uimremoteclient.apk
 product/app/uimremoteserver/uimremoteserver.apk
@@ -27,6 +30,10 @@ product/framework/uimservicelibrary.jar
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
 # system_ext partition
+
+# Camera extensions
+system_ext/etc/permissions/com.google.android.camera.extensions.xml
+system_ext/framework/com.google.android.camera.extensions.jar
 
 # HBM
 system_ext/priv-app/HbmSVManager/HbmSVManager.apk
