@@ -6,4 +6,8 @@
 
 include device/google/redbull/BoardConfig-calyx.mk
 
+BOOT_SECURITY_PATCH := 2023-09-01
+PLATFORM_SECURITY_PATCH := 2023-09-01
+VENDOR_SECURITY_PATCH := 2023-09-01
+
 include vendor/google/barbet/BoardConfigVendor.mk
