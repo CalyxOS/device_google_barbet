@@ -13,9 +13,9 @@ PRODUCT_BRAND := google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=barbet \
-    PRIVATE_BUILD_DESC="barbet-user 14 UQ1A.231205.014 11049176 release-keys"
+    PRIVATE_BUILD_DESC="barbet-user 14 UQ1A.240105.002 11129216 release-keys"
 
-BUILD_FINGERPRINT := google/barbet/barbet:14/UQ1A.231205.014/11049176:user/release-keys
+BUILD_FINGERPRINT := google/barbet/barbet:14/UQ1A.240105.002/11129216:user/release-keys
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
