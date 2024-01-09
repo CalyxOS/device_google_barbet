@@ -34,11 +34,8 @@ on early-init
     # USB_DATA_PATH to 0 (required always)
     write /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled 0
 
-service enable_usb_data /system/bin/bootstrap/linkerconfig --help
-    # This could be a normal service, but for flexibility, as above, it is structured to run
-    # on restart, in the event that a script is not needed in the future or for certain devices.
-    onrestart exec_background - nobody system -- /vendor/bin/init.enable_usb_data.sh /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled 1 /sys/class/typec/port0-partner /sys/class/typec/port0/data_role [host] /sys/devices/platform/soc/a600000.ssusb/mode host peripheral
-    # User and group below are for the service command itself, not the line above.
+service enable_usb_data /vendor/bin/init.enable_usb_data.sh /sys/devices/platform/soc/a600000.ssusb/usb_data_enabled 1 /sys/class/typec/port0-partner /sys/class/typec/port0/data_role [host] /sys/devices/platform/soc/a600000.ssusb/mode host peripheral
+    disabled
     user nobody
-    group nobody
+    group system
     oneshot
