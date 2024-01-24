@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "457d5fd7_86db78bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-24T18:40:10Z",
+      "side": 1,
+      "message": "Works on bramble so it should be fine here.",
+      "revId": "0defc61d2502f95a56d697e226536bba28379b79",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
