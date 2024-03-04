@@ -580,6 +580,7 @@ vendor/firmware/widevine.mbn
 vendor/firmware/widevine.mdt
 vendor/firmware/wlanmdsp.mbn
 vendor/framework/com.google.android.camera.experimental2020.jar
+vendor/lib/android.hardware.media.c2-V1-ndk.so
 vendor/lib/btaudio_offload_if.so
 vendor/lib/camera/components/com.qti.eisv2.so
 vendor/lib/camera/components/com.qti.eisv3.so
@@ -719,6 +720,7 @@ vendor/lib/libcne.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libcneoplookup.so
 vendor/lib/libcneqmiutils.so
+vendor/lib/libcodec2_hal_common.so
 vendor/lib/libcomprcapture.so
 vendor/lib/libconfigdb.so
 vendor/lib/libcpion.so
@@ -1017,8 +1019,10 @@ vendor/lib64/android.hardware.authsecret@1.0-impl.nos.so
 vendor/lib64/android.hardware.confirmationui.secure_input_citadel.so
 vendor/lib64/android.hardware.identity@1.0-impl.nos.so
 vendor/lib64/android.hardware.keymaster@4.1-impl.nos.so
+vendor/lib64/android.hardware.media.c2-V1-ndk.so
 vendor/lib64/android.hardware.oemlock-impl.nos.so
 vendor/lib64/android.hardware.oemlock@1.0-impl.nos.so
+vendor/lib64/android.hardware.weaver-bridge.nos.so
 vendor/lib64/android.hardware.weaver-impl.nos.so
 vendor/lib64/android.hardware.weaver2-impl.nos.so
 vendor/lib64/android.hardware.weaver@1.0-impl.nos.so
@@ -1261,6 +1265,7 @@ vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
+vendor/lib64/libcodec2_hal_common.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libcomprcapture.so
 vendor/lib64/libconfigdb.so
@@ -1473,6 +1478,7 @@ vendor/lib64/libxml.so
 vendor/lib64/libxtadapter.so
 vendor/lib64/libxtwifi_server_protocol.so
 vendor/lib64/libxtwifi_server_protocol_uri_v3.so
+vendor/lib64/nos_app_keymaster_ctdl.so
 vendor/lib64/qcrild_librilutils.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
@@ -1498,12 +1504,12 @@ vendor/lib64/vendor.display.color@1.3.so
 vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
-vendor/lib64/vendor.google.google_battery-V2-ndk.so
+vendor/lib64/vendor.google.google_battery-V3-ndk.so
 vendor/lib64/vendor.google.radioext@1.0.so
 vendor/lib64/vendor.google.radioext@1.1.so
 vendor/lib64/vendor.google.radioext@1.2.so
 vendor/lib64/vendor.google.radioext@1.3.so
-vendor/lib64/vendor.google.wifi_ext-V1-ndk.so
+vendor/lib64/vendor.google.wifi_ext-V3-ndk.so
 vendor/lib64/vendor.google.wifi_ext@1.0.so
 vendor/lib64/vendor.qti.data.factory@2.0.so
 vendor/lib64/vendor.qti.data.factory@2.1.so
