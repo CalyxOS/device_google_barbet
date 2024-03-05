@@ -1,6 +1,4 @@
 # All blobs are extracted from Google factory images for each new ASB
-vendor/apex/com.android.hardware.cas.apex
-vendor/apex/com.android.vndk.current.on_vendor.apex
 vendor/apex/com.google.pixel.euicc.update.apex
 vendor/app/CACertService/CACertService.apk
 vendor/app/CneApp/CneApp.apk
@@ -22,11 +20,6 @@ vendor/bin/diag_socket_log
 vendor/bin/diag_uart_log
 vendor/bin/dspservice
 vendor/bin/feature_enabler_client
-vendor/bin/gpiodetect
-vendor/bin/gpiofind
-vendor/bin/gpioget
-vendor/bin/gpioinfo
-vendor/bin/gpioset
 vendor/bin/hvdcp_opti
 vendor/bin/hw/android.hardware.authsecret-service.citadel
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.2-service.fpc
@@ -56,7 +49,6 @@ vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
-vendor/bin/i2ctransfer
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -246,16 +238,6 @@ vendor/etc/acdbdata/QRD/lito-lagoonqrd-snd-card/QRD_Lagoon_workspaceFile.qwsp
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
-vendor/etc/aconfig_flags.pb
-vendor/etc/aidl/le_audio/aidl_audio_set_configurations.bfbs
-vendor/etc/aidl/le_audio/aidl_audio_set_configurations.json
-vendor/etc/aidl/le_audio/aidl_audio_set_scenarios.bfbs
-vendor/etc/aidl/le_audio/aidl_audio_set_scenarios.json
-vendor/etc/boringssl_self_test.no_zygote.rc
-vendor/etc/boringssl_self_test.zygote32.rc
-vendor/etc/boringssl_self_test.zygote64.rc
-vendor/etc/boringssl_self_test.zygote64_32.rc
-vendor/etc/build_flags.json
 vendor/etc/cacert_location.pem
 vendor/etc/charger_fstab.qti
 vendor/etc/chre/preloaded_nanoapps.json
@@ -598,11 +580,7 @@ vendor/firmware/widevine.mbn
 vendor/firmware/widevine.mdt
 vendor/firmware/wlanmdsp.mbn
 vendor/framework/com.google.android.camera.experimental2020.jar
-vendor/lib/android.hardware.audio.common-V3-ndk.so
-vendor/lib/android.hardware.bluetooth.audio-V4-ndk.so
-vendor/lib/android.hardware.health-V3-ndk.so
 vendor/lib/android.hardware.media.c2-V1-ndk.so
-vendor/lib/android.media.audio.common.types-V3-ndk.so
 vendor/lib/btaudio_offload_if.so
 vendor/lib/camera/components/com.qti.eisv2.so
 vendor/lib/camera/components/com.qti.eisv3.so
@@ -632,7 +610,6 @@ vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib/hw/android.hidl.memory@1.0-impl.so
 vendor/lib/hw/audio.primary.lito.so
 vendor/lib/hw/hardware.google.bluetooth.bt_channel_avoidance@1.0-impl.so
 vendor/lib/hw/hardware.google.bluetooth.sar@1.0-impl.so
@@ -769,7 +746,6 @@ vendor/lib/libexthwplugin.so
 vendor/lib/libfastcrc.so
 vendor/lib/libfastcvdsp_stub.so
 -vendor/lib/libfastcvopt.so
-vendor/lib/libflatbuffers-cpp.so
 vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
@@ -831,8 +807,6 @@ vendor/lib/libpdnotifier.so
 vendor/lib/libperipheral_client.so
 vendor/lib/libpowercallback.so
 vendor/lib/libpowercore.so
-vendor/lib/libprotobuf-cpp-full-21.12.so
-vendor/lib/libprotobuf-cpp-lite-21.12.so
 vendor/lib/libpvr.so
 vendor/lib/libqcbor.so
 vendor/lib/libqcc_file_agent.so
@@ -1040,32 +1014,18 @@ vendor/lib/vendor.qti.power.pasrmanager@1.0.so
 vendor/lib/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib/vendor.qti.qspmhal@1.0.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib64/android.frameworks.stats-V2-ndk.so
-vendor/lib64/android.hardware.audio.common-V3-ndk.so
 vendor/lib64/android.hardware.authsecret-impl.nos.so
 vendor/lib64/android.hardware.authsecret@1.0-impl.nos.so
-vendor/lib64/android.hardware.bluetooth.audio-V4-ndk.so
-vendor/lib64/android.hardware.camera.device-V3-ndk.so
-vendor/lib64/android.hardware.camera.provider-V3-ndk.so
 vendor/lib64/android.hardware.confirmationui.secure_input_citadel.so
-vendor/lib64/android.hardware.contexthub-V3-ndk.so
-vendor/lib64/android.hardware.health-V3-ndk.so
 vendor/lib64/android.hardware.identity@1.0-impl.nos.so
 vendor/lib64/android.hardware.keymaster@4.1-impl.nos.so
 vendor/lib64/android.hardware.media.c2-V1-ndk.so
 vendor/lib64/android.hardware.oemlock-impl.nos.so
 vendor/lib64/android.hardware.oemlock@1.0-impl.nos.so
-vendor/lib64/android.hardware.power-V5-ndk.so
-vendor/lib64/android.hardware.thermal-V2-ndk.so
 vendor/lib64/android.hardware.weaver-bridge.nos.so
 vendor/lib64/android.hardware.weaver-impl.nos.so
 vendor/lib64/android.hardware.weaver2-impl.nos.so
 vendor/lib64/android.hardware.weaver@1.0-impl.nos.so
-vendor/lib64/android.hardware.wifi-V2-ndk.so
-vendor/lib64/android.hardware.wifi.common-V1-ndk.so
-vendor/lib64/android.hardware.wifi.hostapd-V2-ndk.so
-vendor/lib64/android.hardware.wifi.supplicant-V3-ndk.so
-vendor/lib64/android.media.audio.common.types-V3-ndk.so
 vendor/lib64/btaudio_offload_if.so
 vendor/lib64/camera/capture_sessions/lib_multicam_dualfov_capture_session.so
 vendor/lib64/camera/com.google.gabc.tuning.imx355.so
@@ -1134,7 +1094,6 @@ vendor/lib64/camera/ghawb_para_lut.bin
 vendor/lib64/camera/ghawb_para_lut_imx355.bin
 vendor/lib64/camera/ghawb_para_lut_imx363.bin
 vendor/lib64/camera/ghawb_para_lut_imx481.bin
-vendor/lib64/chre_metrics_reporter.so
 vendor/lib64/com.fingerprints.extension@2.0.so
 vendor/lib64/com.google.3abase.so
 vendor/lib64/com.google.af.tuning.imx363.so
@@ -1191,7 +1150,6 @@ vendor/lib64/google_wifi_firmware_config_info_cc_proto.so
 vendor/lib64/google_wifi_firmware_config_version_c_wrapper.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/android.hidl.memory@1.0-impl.so
 vendor/lib64/hw/audio.primary.lito.so
 vendor/lib64/hw/camera.lito.so
 vendor/lib64/hw/com.qti.chi.override.bitra.so
@@ -1334,7 +1292,6 @@ vendor/lib64/libembmsservice.so
 vendor/lib64/libexthwplugin.so
 vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
-vendor/lib64/libflatbuffers-cpp.so
 vendor/lib64/libg3a_gabc.so
 vendor/lib64/libg3a_gaf_v3.so
 vendor/lib64/libg3a_ghawb.so
@@ -1425,8 +1382,6 @@ vendor/lib64/libperipheral_client.so
 vendor/lib64/libpower_anomaly_data.so
 vendor/lib64/libpowercallback.so
 vendor/lib64/libpowercore.so
-vendor/lib64/libprotobuf-cpp-full-21.12.so
-vendor/lib64/libprotobuf-cpp-lite-21.12.so
 vendor/lib64/libpvr.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqcc_file_agent.so
