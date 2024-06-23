@@ -41,7 +41,3 @@ AUDIO_FEATURE_CONFIG_ENABLE_TAS_SET_RE_IN_HAL := true
 -include device/google/barbet/soong/pixel_soong_config.mk
 
 include device/google/barbet/barbet/BoardConfig-calyx.mk
-
-# TODO: Remove this. The qcom makefiles build files to the partition staging directories in a way
-# that isn't tracked by the build system, and causes incrementality bugs.
-BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
