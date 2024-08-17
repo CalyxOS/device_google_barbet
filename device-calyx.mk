@@ -18,10 +18,6 @@
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7-service-google
 
-# Codec2
-PRODUCT_PACKAGES += \
-    libmedia_ecoservice.vendor
-
 # For Google Camera
 PRODUCT_COPY_FILES += \
     device/google/barbet/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
@@ -29,22 +25,3 @@ PRODUCT_COPY_FILES += \
 # HBM
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlay
-
-# Nos
-PRODUCT_PACKAGES += \
-    libnos:64 \
-    libnosprotos:64 \
-    libnos_client_citadel:64 \
-    libnos_datagram:64 \
-    libnos_datagram_citadel:64 \
-    libnos_feature:64 \
-    libnos_transport:64 \
-    nos_app_avb:64 \
-    nos_app_identity:64 \
-    nos_app_keymaster:64 \
-    nos_app_keymaster_ctdl:64 \
-    nos_app_weaver:64
-
-# Wi-Fi
-PRODUCT_PACKAGES += \
-    android.hardware.wifi-V2-ndk.vendor:64
