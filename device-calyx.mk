@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# Codec2
+PRODUCT_PACKAGES += \
+    libmedia_ecoservice.vendor
+
 # For Google Camera
 PRODUCT_COPY_FILES += \
     device/google/barbet/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml

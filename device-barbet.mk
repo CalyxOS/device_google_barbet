@@ -50,6 +50,7 @@ LOCAL_PATH := device/google/barbet
 
 PRODUCT_SOONG_NAMESPACES += \
     device/google/barbet \
+    hardware/google/av \
     hardware/qcom/wlan/legacy
 
 # Audio XMLs for barbet
