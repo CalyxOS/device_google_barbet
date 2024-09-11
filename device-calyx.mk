@@ -14,10 +14,6 @@
 # limitations under the License.
 #
 
-# Camera
-PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.7-service-google
-
 # For Google Camera
 PRODUCT_COPY_FILES += \
     device/google/barbet/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
