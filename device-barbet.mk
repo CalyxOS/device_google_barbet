@@ -16,6 +16,8 @@
 
 PRODUCT_HARDWARE := barbet
 
+USES_QCT_MODEM := true
+
 ifeq ($(TARGET_PREBUILT_KERNEL),)
     LOCAL_KERNEL := device/google/redbull-kernel/vintf/Image.lz4
 else
@@ -212,3 +214,8 @@ PRODUCT_PACKAGES += \
 
 # Gyotaku
 include device/google/gs-common/gyotaku_app/gyotaku.mk
+# Better Bug
+include device/google/gs-common/betterbug/betterbug.mk
+
+# Set soong config variable to control module build
+$(call soong_config_set,ctpm,enable_nr_dual_connectivity_qcril,true)
