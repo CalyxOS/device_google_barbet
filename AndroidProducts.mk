@@ -17,6 +17,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_barbet.mk \
     $(LOCAL_DIR)/aosp_barbet_hwasan.mk \
+    $(LOCAL_DIR)/calyx_barbet.mk \
     $(LOCAL_DIR)/lineage_barbet.mk
 
 COMMON_LUNCH_CHOICES := \
