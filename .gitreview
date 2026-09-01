@@ -2,4 +2,4 @@
 host=review.calyxos.org
 port=29418
 project=CalyxOS/device_google_barbet
-defaultbranch=android16-qpr2
+defaultbranch=android17
